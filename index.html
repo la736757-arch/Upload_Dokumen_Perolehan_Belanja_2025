@@ -65,6 +65,7 @@
           <th class="border p-2">Kode Sub Kegiatan</th>
           <th class="border p-2">Kode Rekening</th>
           <th class="border p-2">Nama Rekening</th>
+          <th class="border p-2">Nomor SP2D</th>
           <th class="border p-2">Keterangan Dokumen</th>
           <th class="border p-2 text-right">Nilai Realisasi</th>
           <th class="border p-2">Nama Barang</th>
@@ -170,6 +171,7 @@ function renderTable() {
       <td class="border p-2">${item["Kode Sub Kegiatan"] || '-'}</td>
       <td class="border p-2">${item["Kode Rekening"] || '-'}</td>
       <td class="border p-2">${item["Nama Rekening"] || '-'}</td>
+      <td class="border p-2">${item["Nomor SP2D"] || '-'}</td>
       <td class="border p-2">${item["Keterangan Dokumen"] || '-'}</td>
       <td class="border p-2 text-right">
   ${formatRupiah(item["Nilai Realisasi"])}
